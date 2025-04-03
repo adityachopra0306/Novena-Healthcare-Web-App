@@ -15,56 +15,6 @@ This is a **full-stack** hospital management system built using **React (Fronten
 
 ---
 
-## Installation & Setup
-
-### 1️. Clone the Repository
-```sh
-git clone https://github.com/your-username/hospital-management.git
-cd hospital-management
-```
-
-### 2. Backend Setup (Django + PostgreSQL)
-
-#### Install Dependencies
-```sh
-pip install -r requirements.txt
-```
-
-#### Apply Migrations
-```sh
-python manage.py makemigrations authapp
-python manage.py migrate
-```
-
-#### 🔹 Create a Superuser (Admin)
-```sh
-python manage.py createsuperuser
-```
-
-#### 🔹 Run the Server
-```sh
-python manage.py runserver
-```
-The backend will be available at `http://127.0.0.1:8000/`
-
----
-
-### 3. Frontend Setup (React)
-
-#### 🔹 Install Dependencies
-```sh
-cd frontend
-npm install
-```
-
-#### 🔹 Start the React App
-```sh
-npm start
-```
-The frontend will be available at `http://localhost:3000/`
-
----
-
 ## Database Schema (PostgreSQL Tables)
 
 #### (Going to be updated soon)
